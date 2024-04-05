@@ -1,0 +1,11 @@
+# Install Python and pip 
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
