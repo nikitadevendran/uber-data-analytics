@@ -1,1 +1,60 @@
+1. Go through the data dictionary and understand the primary key and foreign key.
+
+2. Write the sample code on Jupyter Notebook to transform the dataset into the desired fact table.
+
+3. Create a new project on Google Cloud Platform.
+
+4. Go to Cloud Storage, create a new bucket with fine grained access, and upload the dataset onto it.
+
+5. Edit access and ensure that the public can access it, and read it
+
+6. Go to Compute Instance, create a new VM instance, and connect to the SSH browser.
+
+7. Install the necessary dependencies and mage.
+
+8. After installing, start the mage project and establish the connection using the public IP from the instance and the port number.
+
+9. In your instance, click on the network interface and create a new firewall rule targeting all instances and specify the source IP as 0.0.0.0/0 and TCP port as 6789.
+
+10. Open Mage and create a new standard data pipeline.
+
+11. Create a data loader file, and load the dataset using the public URL of the instance and convert it into a dataframe.
+
+12. Create a new data transformer file, change the data parameter into df, paste the transformation code from the Jupyter Notebook.
+
+13. Print the fact table.
+
+14. Convert the dataframe into a dictionary.
+
+15. Create a new data exporter file, to load the data into BigQuery.
+
+16. In the console, navigate to API & Services, go to Credentials and create a service account to communicate with other GCP services.
+
+17. Choose BigQuery Admin role for the Service account.
+
+18. After creation, go to keys, and click add key.
+
+19. Create a json private key, this causes the credential file to get downloaded onto your system.
+
+20. Navigate back to Mage, under the utils folder, click on the io.config.yaml file.
+
+21. Copy all the credentials from the json file onto it.
+
+22. Save the file, and go to BigQuery in the console.
+
+23. Click on your project, click create dataset, choose multi-region, choose us.
+
+24. Copy the datasetID and paste it in the data exporter file, with the table name as fact_table.
+
+25. Change the df parameter to data, and add the value.
+
+26. All the tables gets connected to the BigQuery.
+
+27. In BigQuery, the tables will be displayed with all the respective values present.
+
+28. Create a new query file, to create a new table by extracting the columns we require to create the dashboard.
+
+29. Go to LookerStudio, and upload the table from BigQuery.
+
+30. Drag and drop the required components to create the dashboard.
 
