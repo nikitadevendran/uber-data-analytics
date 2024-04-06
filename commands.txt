@@ -1,4 +1,5 @@
-# Install Python and pip 
+# Install the necessary dependencies
+
 sudo apt-get update
 
 sudo apt-get install python3-distutils
@@ -9,9 +10,17 @@ sudo apt-get install wget
 
 wget https://bootstrap.pypa.io/get-pip.py
 
+--------------------------------------
+
+# Create a virtual environment and activate it
+
 python3 -m venv myvenv
 
 source myenv/bin/activate
+
+--------------------------------------
+
+# Install the necessary pre-requisites
 
 python -m pip install
 
@@ -20,6 +29,10 @@ pip install pandas
 pip install google-cloud-bigquery
 
 pip install google-cloud
+
+--------------------------------------
+
+# Install Mage and start the Mage Project
 
 pip install mage-ai
 
