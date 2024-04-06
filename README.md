@@ -16,6 +16,6 @@ This project aims to analyze Uber data utilizing the dataset through the creatio
   
 # Architecture Diagram
 
-![Architecure Diagram](https://github.com/nikitadevendran/kafka-stock-market/assets/100458176/676f28d4-0a82-4f5b-b64c-8f76379e83a7)
+![Architecure Diagram](https://github.com/nikitadevendran/uber-data-analytics/blob/main/Architecture%20Diagram.png)
 
 
