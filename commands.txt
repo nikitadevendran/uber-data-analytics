@@ -9,3 +9,18 @@ sudo apt-get install wget
 
 wget https://bootstrap.pypa.io/get-pip.py
 
+python3 -m venv myvenv
+
+source myenv/bin/activate
+
+python -m pip install
+
+pip install pandas 
+
+pip install google-cloud-bigquery
+
+pip install google-cloud
+
+pip install mage-ai
+
+mage start uber-data-analysis
