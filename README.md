@@ -1,5 +1,5 @@
 # Uber Data Analytics 
-This project aims to analyze the Uber dataset by creating a dashboard. This is done by storing the Uber data on a bucket, loading it onto BigQuery using a Mage data pipeline, and then using Looker Studio to achieve the final output.
+This project aims to analyze Uber data utilizing the dataset through the creation of a dashboard and querying to extract insights.
 
 # Technology Used
 - Python
